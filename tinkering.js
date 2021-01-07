@@ -1,17 +1,6 @@
-function multiply(a, b) {
-  return a * b; 
-}
+const seasons = [1, 2, 3];
+const length = seasons.length; 
+seasons.push(4);
 
-const result = multiply(2, 4); 
-
-const awesomeArray = ["Igloo", "Anaconda", "Mango", "Crazy", "Oranges", "Oocytes", "Lemur"];
-
-function coolFunction() { 
-  let statementOfTruth = "";
-  for (i = 0; i < awesomeArray.length; i++) {
-    statementOfTruth = statementOfTruth + awesomeArray[i][0];
-  }
-  console.log(statementOfTruth);
-}
-
-coolFunction();
+console.log(length);
+console.log(seasons.length); 
